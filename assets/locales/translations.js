@@ -224,9 +224,9 @@ window.portfolioTranslations = {
     "en": "Oreun Holdings Co., Ltd.",
     "ja": "株式会社オルンホールディングス"
   },
-  "2025.01.15 ~ 현재": {
-    "en": "2025.01.15 – Present",
-    "ja": "2025.01.15 ～ 現在"
+  "2026.01.15 ~ 현재": {
+    "en": "2026.01.15 – Present",
+    "ja": "2026.01.15 ～ 現在"
   },
   "CTO로서 주식 교육과 모의투자, 가상화폐 거래 관련 플랫폼을 개발하고, 업무 자동화 시스템과 설문조사 플랫폼을 구축했습니다.": {
     "en": "As CTO, I developed platforms for stock education, paper trading and cryptocurrency trading, alongside business automation systems and a survey platform.",
