@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>안진용 - 개발자 · 기술 리더</title>
+    
+    <!-- Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Noto+Sans+KR:wght@400;500;600;700&amp;family=Noto+Sans+JP:wght@400;500;600;700&amp;display=swap">
+    <link rel="stylesheet" href="assets/styles/fonts.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Meta tags for SEO -->
+    <meta name="description" content="안진용의 개발 포트폴리오. 플랫폼 개발부터 기술 의사결정과 팀 리딩까지, 기술을 실제 가치로 연결합니다.">
+    <meta name="keywords" content="개발자, 풀스택, 팀장, Java, Python, JavaScript, React, Vue, AWS, Docker">
+    <meta name="author" content="안진용">
+    
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="안진용 - 개발자 · 기술 리더">
+    <meta property="og:description" content="플랫폼 개발부터 기술 의사결정과 팀 리딩까지">
+    <meta property="og:type" content="website">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+    <a class="skip-link" href="#experience">본문으로 건너뛰기</a>
+    <nav class="navbar" aria-label="주요 메뉴">
+      <div class="nav-container">
+        <a href="#home" class="wordmark" aria-label="안진용 홈">안진용</a>
+        <div class="nav-menu"><a href="#experience">경력</a><a href="#skills">기술</a><a href="#about">소개</a><a href="#achievements">기록</a></div>
+        <div class="nav-tools">
+        <select id="language-select" aria-label="언어 선택">
+          <option value="ko" lang="ko">한국어</option>
+          <option value="en" lang="en">English</option>
+          <option value="ja" lang="ja">日本語</option>
+        </select>
+        <a class="nav-github" href="https://github.com/ZwLoad" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </nav>
+    <main id="home">
+    <section class="hero">
+      <div class="container">
+        <div class="hero-topline"><span><span class="status-dot"></span> <span data-career-start="2016-12-26">개발자</span></span><span>2016년부터, 개발과 함께</span></div>
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">개발부터 팀 리딩까지</p>
+            <h1 class="glitch-heading"><span class="glitch-line"><span>직접 만들고,</span><span class="glitch-copy glitch-copy-red" aria-hidden="true">직접 만들고,</span><span class="glitch-copy glitch-copy-light" aria-hidden="true">직접 만들고,</span></span><br><span class="glitch-line hero-accent"><span>끝까지 책임집니다.</span><span class="glitch-copy glitch-copy-red" aria-hidden="true">끝까지 책임집니다.</span><span class="glitch-copy glitch-copy-light" aria-hidden="true">끝까지 책임집니다.</span></span></h1>
+            <p class="hero-description" data-i18n-rich="intro">플랫폼 개발, 서비스 운영, 기술 의사결정.<br>코드를 작성하는 일부터 팀이 함께 완성하는 일까지,<br class="desktop-break"> 개발자 <strong>안진용</strong>이 해온 일입니다.</p>
+            <div class="hero-actions"><a class="btn btn-primary" href="#experience">지나온 경험 살펴보기 <span aria-hidden="true">↘</span></a><a class="text-link" href="#philosophy">일하는 방식 <span aria-hidden="true">↗</span></a></div>
+          </div>
+          <aside class="career-overview" aria-label="주요 경력 요약">
+            <div class="career-overview-heading"><h2>걸어온 길</h2><a href="#experience" aria-label="전체 경력 보기">전체 경력 <span aria-hidden="true">↗</span></a></div>
+            <ol class="career-steps">
+              <li><span class="career-year">2025 —</span><div><h3>교육부터 투자 플랫폼까지</h3><p>주식회사오른홀딩스 · 기술총괄</p><span class="career-detail">주식 교육 · 모의투자 · 업무 자동화</span></div></li>
+              <li><span class="career-year">2024</span><div><h3>기술과 사업을 함께</h3><p>BOS컨설팅 · 기술총괄</p><span class="career-detail">블록체인 · 자동매매 플랫폼 개발</span></div></li>
+              <li><span class="career-year">2022</span><div><h3>팀을 만들고 이끌다</h3><p>타이탄 네트웍스 · 창립 멤버, 기술총괄</p><span class="career-detail">개발 프로세스 정립 · 플랫폼 구축</span></div></li>
+              <li><span class="career-year">2021</span><div><h3>일본 현장에서 배운 협업</h3><p>ラピドアクト · 개발자</p><span class="career-detail">테스트와 문서화 · 서비스 운영</span></div></li>
+              <li><span class="career-year">2016</span><div><h3>개발의 기본기를 쌓다</h3><p>코테크시스템 · 개발자</p><span class="career-detail">교육 플랫폼 · 기업 시스템 개발</span></div></li>
+            </ol>
+          </aside>
+        </div>
+        <div class="hero-metrics"><div><strong>2016<span>—</span></strong><p>개발자로 시작한 여정</p></div><div><strong>16<span>개사</span></strong><p>자동매매 플랫폼 화이트 라벨링 납품</p></div><div><strong data-i18n-rich="revenue">8<span>억 원</span></strong><p>창립 멤버로서 연매출 달성에 기여</p></div><div><strong>한국<span>·</span>일본</strong><p>한국과 일본, 두 개발 문화의 경험</p></div></div>
+      </div>
+    </section>
+    <section id="philosophy" class="philosophy-section"><div class="container philosophy-grid"><div><p class="eyebrow">일하는 방식</p><h2>기본기를 지키고,<br>새로운 도구를 익힙니다.</h2></div><div><p>OpenEdx 오픈소스로 다진 기본기, 일본 현장에서 배운 테스트와 문서화, 그리고 CTO로서의 기술 의사결정. 다양한 경험을 연결해 팀과 사용자에게 도움이 되는 서비스를 만듭니다.</p><p>새로운 기술을 꾸준히 탐구하고, 지금은 AI를 적극적으로 활용해 생산성과 문제 해결 능력을 높이고 있습니다.</p><div class="approach-tags"><span>기본기에 충실하게</span><span>함께 성장하며</span><span>새로운 도구에 열린 자세로</span></div></div></div></section>
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <div class="section-header">
+                <p class="eyebrow">01 · 경력</p><h2 class="section-title">개발자로 해온 일</h2><p class="section-subtitle">플랫폼 개발부터 조직의 기술 리딩까지.</p>
+            </div>
+            <div class="timeline">
+
+                <div class="timeline-item current">
+                    <div class="timeline-marker">
+                        <i class="fas fa-briefcase" aria-hidden="true"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="company-info">
+                            <h3>주식회사오른홀딩스</h3>
+                            <span class="position">CTO</span>
+                            <span class="period">2025.01.15 ~ 현재</span>
+                        </div>
+                        <div class="company-description">
+                            <p>CTO로서 주식 교육과 모의투자, 가상화폐 거래 관련 플랫폼을 개발하고, 업무 자동화 시스템과 설문조사 플랫폼을 구축했습니다.</p>
+                            <details class="project-details"><summary>프로젝트 전체 보기 <span>06</span></summary><ul class="projects-list">
+                                <li>오른, 주식 공부를 위한 CMS '오른아카데미' 개발 (SI)</li>
+                                <li>오른, 비트코인 선물 자동매매 플랫폼 '센티널 팩토리' 개발 (SI)</li>
+                                <li>오른, 업무 자동화 시스템 '양봉정리' 개발 (SI)</li>
+                                <li>오른, 가상화폐 모의 거래소 '레버리지GYM' 개발 (SI)</li>
+                                <li>오른, 설문조사 플랫폼 '오른서베이' 개발 (SI)</li>
+                                <li>오른, 주식 공부를 위한 모의투자 플랫폼 '오른 트레이딩 시스템' 개발 (SI)</li>
+                            </ul></details>
+                        </div>
+                    </div>
+                </div>
+
+    
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-briefcase" aria-hidden="true"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="company-info">
+                            <h3>(주)BOS컨설팅</h3>
+                            <span class="position">CTO</span>
+                            <span class="period">2024.06 ~ 2025.12.15</span>
+                        </div>
+                        <div class="company-description">
+                            <p>
+                                블록체인 플랫폼과 코인 선물 자동매매 플랫폼을 주도적으로 개발하며, 
+                                강남(선릉) 업계의 트렌드를 혁신적으로 변화시킴. 
+                                기술 의사결정과 사업 관리 전반을 리드하며 회사의 핵심 성장 동력을 만들어감.
+                            </p>
+                            <details class="project-details"><summary>프로젝트 전체 보기 <span>07</span></summary><ul class="projects-list">
+                                <li>웨**, 토큰 발행 및 Lbank 상장 (SI)</li>
+                                <li>웨**, 토큰 스테이킹 보상형 솔루션 개발 (SI)</li>
+                                <li>오***, 토큰 발행 및 홀더 수 작업용 에어드롭 자동화 시스템 개발 (SI)</li>
+                                <li>BOS컨설팅, 텔레그램 기반 선물 자동매매 봇 개발 (SI)</li>
+                                <li>BOS컨설팅, 웹 기반 선물 자동매매 봇 개발 (SI)</li>
+                                <li>BOS컨설팅, 웹 기반 선물 자동매매 봇 화이트 라벨링 납품 [16업체] (SI)</li>
+                                <li>BOS컨설팅, 리플 전문 선물 자동매매 플랫폼 '리플레이' 개발 (SI)</li>
+                            </ul></details>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-users" aria-hidden="true"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="company-info">
+                            <h3>(주)타이탄 네트웍스</h3>
+                            <span class="position">CTO</span>
+                            <span class="period">2022.06 ~ 2024.05</span>
+                        </div>
+                        <div class="company-description">
+                            <p>
+                                법인 창립 멤버로서 개발자 4명과 함께 SI/SM 프로젝트를 수행. 
+                                개발팀을 이끌며 조직의 개발 프로세스를 정립하고, 연매출 8억 원 달성에 기여한 경험을 보유.
+                            </p>
+                            <details class="project-details"><summary>프로젝트 전체 보기 <span>13</span></summary><ul class="projects-list">
+                                <li>타이탄네트웍스, TITAN VPN 플랫폼 개발 (SI)</li>
+                                <li>F********, GPS 기반 NFT 보상형 솔루션 개발 (SI)</li>
+                                <li>최**, 세븐보드 전산 시스템 개발 (SI)</li>
+                                <li>스***, 세븐보드 전산 시스템 화이트 라벨링 납품 (SI)</li>
+                                <li>메***, NFT 마켓 플레이스 개발 (SI)</li>
+                                <li>얼***, NFT 마켓 플레이스 개발 (SI)</li>
+                                <li>타이탄네트웍스, 이더리움 기반 복권 시스템 개발 (SI)</li>
+                                <li>몬*, 카지노 토큰 스테이킹 보상형 솔루션 개발 (SI)</li>
+                                <li>타이탄네트웍스, 슬랙 연동 카지노 자동 배팅 솔루션 개발 (SI)</li>
+                                <li>로****, 부동산 토큰 스테이킹 보상형 솔루션 개발 (SI)</li>
+                                <li>레***, 지하 아이돌 엔터테인먼트 플랫폼 개발 (SI)</li>
+                                <li>카***, 출석 기반 보상형 솔루션 개발 (SI)</li>
+                                <li>칸****, 출석 기반 보상형 솔루션 개발 (SI)</li>
+                            </ul></details>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-globe-asia" aria-hidden="true"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="company-info">
+                            <h3>（株）ラピドアクト</h3>
+                            <span class="position">사원</span>
+                            <span class="period">2021.02 ~ 2022.06</span>
+                        </div>
+                        <div class="company-description">
+                            <p>
+                                일본 현지 기업에서 근무하며 글로벌 개발 환경에 도전. 
+                                일본어 비즈니스 커뮤니케이션 능력을 실무에서 활용하며, 
+                                테스트와 문서화를 중시하는 문화 속에서 협업 효율성과 코드 품질을 한 단계 끌어올림.
+                            </p>
+                            <details class="project-details"><summary>프로젝트 전체 보기 <span>03</span></summary><ul class="projects-list">
+                                <li>큐슈 전력, 경리 시스템 유지보수 (SM)</li>
+                                <li>리쿠르트, 핫페퍼그루메 식음료팀 유지보수 (SM)</li>
+                                <li>세이코, 의약품 배송 시스템 개발 (SI)</li>
+                            </ul></details>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-code" aria-hidden="true"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="company-info">
+                            <h3>(주)코테크시스템</h3>
+                            <span class="position">사원, 대리</span>
+                            <span class="period">2016.12.26 ~ 2020.12.31</span>
+                        </div>
+                        <div class="company-description">
+                            <p>
+                                첫 직장에서 개발자로서의 기초를 다지고 다양한 SI/SM 프로젝트를 경험. 
+                                주요 프로젝트로는 LGCNS, 현대모비스, 국가평생교육진흥원, Yes24 등을 포함하며, 
+                                대규모 시스템 개발과 운영 경험을 통해 엔터프라이즈 환경에 대한 이해를 축적.
+                            </p>
+                            <details class="project-details"><summary>프로젝트 전체 보기 <span>10</span></summary><ul class="projects-list">
+                                <li>LG CNS, 러닝넷 개발 (SI)</li>
+                                <li>LG CNS, 러닝넷 유지보수 (SM)</li>
+                                <li>국가평생교육진흥원, K-MOOC 개발 (SI)</li>
+                                <li>국가평생교육진흥원, K-MOOC 유지보수 (SM)</li>
+                                <li>코테크시스템, 시스코 영상 제어 관리자 (SI)</li>
+                                <li>현대모비스, 자기주도 SW 러닝 시스템 개발 (SI)</li>
+                                <li>YES24, 블록체인 지갑 관리 시스템 seyio 개발 (SI)</li>
+                                <li>YES24, 블록체인 경품 추첨 시스템 seymall 개발 (SI)</li>
+                                <li>YES24, Story24 플랫폼 개발 (SI)</li>
+                                <li>YES24, Story24 관리자 개발 (SI)</li>
+                            </ul></details>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <p class="eyebrow">02 · 기술</p><h2 class="section-title">실무에서 사용한 기술</h2><p class="section-subtitle">실제 프로젝트에서 사용하고, 운영하며 익힌 도구들.</p>
+            </div>
+
+            <!-- Practical technology stack -->
+            <div class="skills-grid-enhanced">
+                <div class="skill-category-enhanced">
+                    <div class="category-visual">
+                        <div class="category-icon"><i class="fas fa-code" aria-hidden="true"></i></div>
+                        <div class="category-info"><h3>프로그래밍 언어</h3></div>
+                    </div>
+                    <div class="skill-tags-enhanced">
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">C/C++</span>
+                        <span class="skill-tag">Ruby</span>
+                        <span class="skill-tag">Bash</span>
+                    </div>
+                </div>
+                <div class="skill-category-enhanced">
+                    <div class="category-visual">
+                        <div class="category-icon"><i class="fas fa-server" aria-hidden="true"></i></div>
+                        <div class="category-info"><h3>백엔드</h3></div>
+                    </div>
+                    <div class="skill-tags-enhanced">
+                        <span class="skill-tag">Spring</span>
+                        <span class="skill-tag">Spring Boot</span>
+                        <span class="skill-tag">Nest.js</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">FastAPI</span>
+                        <span class="skill-tag">Ruby on Rails</span>
+                        <span class="skill-tag">JWT</span>
+                    </div>
+                </div>
+                <div class="skill-category-enhanced">
+                    <div class="category-visual">
+                        <div class="category-icon"><i class="fas fa-desktop" aria-hidden="true"></i></div>
+                        <div class="category-info"><h3>프론트엔드</h3></div>
+                    </div>
+                    <div class="skill-tags-enhanced">
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">Vue.js</span>
+                        <span class="skill-tag">Next.js</span>
+                        <span class="skill-tag">Nuxt.js</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                        <span class="skill-tag">Redux</span>
+                        <span class="skill-tag">Zustand</span>
+                        <span class="skill-tag">Vuex</span>
+                        <span class="skill-tag">jQuery</span>
+                        <span class="skill-tag">Bootstrap</span>
+                        <span class="skill-tag">Axios</span>
+                    </div>
+                </div>
+                <div class="skill-category-enhanced">
+                    <div class="category-visual">
+                        <div class="category-icon"><i class="fas fa-database" aria-hidden="true"></i></div>
+                        <div class="category-info"><h3>데이터 · 메시징</h3></div>
+                    </div>
+                    <div class="skill-tags-enhanced">
+                        <span class="skill-tag">Oracle</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">Elasticsearch</span>
+                        <span class="skill-tag">Redis</span>
+                        <span class="skill-tag">Kafka</span>
+                        <span class="skill-tag">Celery</span>
+                        <span class="skill-tag">JPA/Hibernate</span>
+                        <span class="skill-tag">MyBatis</span>
+                        <span class="skill-tag">Prisma</span>
+                        <span class="skill-tag">TypeORM</span>
+                    </div>
+                </div>
+                <div class="skill-category-enhanced">
+                    <div class="category-visual">
+                        <div class="category-icon"><i class="fas fa-cloud" aria-hidden="true"></i></div>
+                        <div class="category-info"><h3>클라우드</h3></div>
+                    </div>
+                    <div class="skill-tags-enhanced">
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">EC2</span>
+                        <span class="skill-tag">S3</span>
+                        <span class="skill-tag">RDS</span>
+                        <span class="skill-tag">CloudFront</span>
+                        <span class="skill-tag">ELB</span>
+                    </div>
+                </div>
+                <div class="skill-category-enhanced">
+                    <div class="category-visual">
+                        <div class="category-icon"><i class="fas fa-network-wired" aria-hidden="true"></i></div>
+                        <div class="category-info"><h3>서버 · 모니터링</h3></div>
+                    </div>
+                    <div class="skill-tags-enhanced">
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">Nginx</span>
+                        <span class="skill-tag">Apache</span>
+                        <span class="skill-tag">Tomcat</span>
+                        <span class="skill-tag">PM2</span>
+                        <span class="skill-tag">Grafana</span>
+                    </div>
+                </div>
+                <div class="skill-category-enhanced">
+                    <div class="category-visual">
+                        <div class="category-icon"><i class="fas fa-cubes" aria-hidden="true"></i></div>
+                        <div class="category-info"><h3>빌드 · 배포</h3></div>
+                    </div>
+                    <div class="skill-tags-enhanced">
+                        <span class="skill-tag">Gradle</span>
+                        <span class="skill-tag">Maven</span>
+                        <span class="skill-tag">Jenkins</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Docker Compose</span>
+                    </div>
+                </div>
+                <div class="skill-category-enhanced">
+                    <div class="category-visual">
+                        <div class="category-icon"><i class="fas fa-link" aria-hidden="true"></i></div>
+                        <div class="category-info"><h3>블록체인 · 외부 연동</h3></div>
+                    </div>
+                    <div class="skill-tags-enhanced">
+                        <span class="skill-tag">Solidity</span>
+                        <span class="skill-tag">Web3.js</span>
+                        <span class="skill-tag">WebSocket</span>
+                        <span class="skill-tag">Telegram Bot API</span>
+                    </div>
+                </div>
+                <div class="skill-category-enhanced">
+                    <div class="category-visual">
+                        <div class="category-icon"><i class="fas fa-vial" aria-hidden="true"></i></div>
+                        <div class="category-info"><h3>테스트 · 협업</h3></div>
+                    </div>
+                    <div class="skill-tags-enhanced">
+                        <span class="skill-tag">JUnit</span>
+                        <span class="skill-tag">Playwright</span>
+                        <span class="skill-tag">Jest</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Swagger</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills Note -->
+            <div class="skills-note">
+                <p>실무에서 경험한 기술스택만 기재하였으며, 그 외 다양한 기술도 활용 가능합니다.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <p class="eyebrow">03 · 학력과 병역</p><h2 class="section-title">학력과 병역</h2><p class="section-subtitle">배움에 대한 태도는 개발에도 이어집니다.</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="highlight-box">
+                        <h3>학력</h3>
+                        <div class="education-highlight">
+                            <div class="education-item">
+                                <h4>중산고등학교 (인문계)</h4>
+                                <p class="period">졸업 — 2011.02.10</p>
+                            </div>
+                            <div class="education-item">
+                                <h4>대구대학교 컴퓨터정보공학부 컴퓨터공학전공</h4>
+                                <p class="period">2012.03 ~ 2017.02 (4년제)</p>
+                                <div class="achievement-badges">
+                                    <button type="button" class="badge badge-gold" onclick="openModal('assets/documents/대학교_졸업우수상.jpeg', '수석졸업 증명서')">수석졸업 ↗</button>
+                                    <button type="button" class="badge badge-blue" onclick="openModal('assets/documents/대학교_졸업증명서.jpeg', '졸업증명서')">1년 조기졸업 ↗</button>
+                                    <button type="button" class="badge badge-green" onclick="openModal('assets/documents/대학교_성적증명서.jpeg', '성적증명서')">학점 4.3/4.5 ↗</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="highlight-box">
+                        <h3>병역</h3>
+                        <p><strong>해병 병장 제대</strong> (2012.12.24 ~ 2014.09.23)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications & Languages -->
+    <section class="cert-lang-section">
+        <div class="container">
+
+            <div class="section-header">
+                <p class="eyebrow">04 · 자격과 언어</p><h2 class="section-title">자격증과 어학 능력</h2><p class="section-subtitle">자격으로 다지고, 언어로 연결합니다.</p>
+            </div>
+
+            <div class="cert-lang-grid">
+                <div class="certifications-card">
+                    <div class="card-header">
+                        <i class="fas fa-certificate" aria-hidden="true"></i>
+                        <h3>자격증</h3>
+                    </div>
+                    <div class="cert-list">
+                        <button type="button" class="cert-item" onclick="openModal('assets/documents/정보처리기사.jpeg', '정보처리기사 자격증')">
+                            <div class="cert-icon">
+                                <i class="fas fa-award" aria-hidden="true"></i>
+                            </div>
+                            <div class="cert-info">
+                                <h4>정보처리기사</h4>
+                                <p>한국산업인력공단</p>
+                                <span class="cert-date">2018.08</span>
+                            </div></button>
+                        <button type="button" class="cert-item" onclick="openModal('assets/documents/JLPT_N3.jpeg', 'JLPT N3급 자격증')">
+                            <div class="cert-icon">
+                                <i class="fas fa-globe-asia" aria-hidden="true"></i>
+                            </div>
+                            <div class="cert-info">
+                                <h4>新 JLPT N3급</h4>
+                                <p>일본국제교육협회</p>
+                                <span class="cert-date">2020.03</span>
+                            </div></button>
+                    </div>
+                </div>
+                
+                <div class="languages-card">
+                    <div class="card-header">
+                        <i class="fas fa-language" aria-hidden="true"></i>
+                        <h3>어학능력</h3>
+                    </div>
+                    <div class="language-list">
+                        <div class="language-item">
+                            <div class="language-flag">🇯🇵</div>
+                            <div class="language-info">
+                                <h4>일본어</h4>
+                                <div class="skill-level">
+                                    <span class="level-text">독해(상) | 말하기(상) | 듣기(상)</span>
+                                </div>
+                                <span class="business-note">비즈니스 회화 가능</span>
+                            </div>
+                        </div>
+                        <div class="language-item">
+                            <div class="language-flag">🇺🇸</div>
+                            <div class="language-info">
+                                <h4>영어</h4>
+                                <div class="skill-level">
+                                    <span class="level-text">독해(상) | 말하기(하) | 듣기(중)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements-section">
+        <div class="container">
+            <div class="section-header">
+                <p class="eyebrow">05 · 수상과 논문</p><h2 class="section-title">수상과 연구 기록</h2><p class="section-subtitle">배움의 과정에서 남긴 작은 성취들.</p>
+            </div>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy" aria-hidden="true"></i>
+                    </div>
+                    <h3>수상</h3>
+                    <ul class="achievement-list">
+                        <li><button type="button" class="archive-link" onclick="openModal('assets/documents/대학교_공학제장려상.jpeg', '공학제 장려상')">대구대학교 공학제 장려상 <span aria-hidden="true">↗</span></button></li>
+                        <li><button type="button" class="archive-link" onclick="openModal('assets/documents/대학교_러닝시그가작.jpeg', '러닝시그 가작')">대구대학교 러닝시그 가작 <span aria-hidden="true">↗</span></button></li>
+                        <li><button type="button" class="archive-link" onclick="openModal('assets/documents/대학교_졸업우수상.jpeg', '졸업 우수상')">대구대학교 졸업 우수상 <span aria-hidden="true">↗</span></button></li>
+                    </ul>
+                </div>
+                
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-file-alt" aria-hidden="true"></i>
+                    </div>
+                    <h3>논문</h3>
+                    <ul class="achievement-list">
+                        <li><button type="button" class="archive-link" onclick="downloadFile('assets/documents/논문_YARA를이용한여러룰파일패턴매칭구현.hwp', 'YARA를 이용한 여러 룰 파일 패턴 매칭 구현.hwp')">YARA를 이용한 여러 룰 파일 패턴 매칭 구현 <span aria-hidden="true">↗</span></button></li>
+                        <li><button type="button" class="archive-link" onclick="downloadFile('assets/documents/논문_YARA를이용한여러룰파일패턴매칭속도개선.hwp', 'YARA를 이용한 여러 룰 파일 패턴 매칭 속도 개선.hwp')">YARA를 이용한 여러 룰 파일 패턴 매칭 속도 개선 <span aria-hidden="true">↗</span></button></li>
+                        <li><button type="button" class="archive-link" onclick="downloadFile('assets/documents/논문_실시간팀구성.hwp', '실시간 팀구성.hwp')">실시간 팀구성 <span aria-hidden="true">↗</span></button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <dialog id="modal" class="modal" aria-labelledby="modal-title">
+        <div class="modal-content">
+            <button type="button" class="modal-close" aria-label="닫기">&times;</button>
+            <h3 id="modal-title"></h3>
+            <div class="modal-body">
+                <img id="modal-image" alt="" style="max-width: 100%; height: auto; border-radius: 8px;">
+            </div>
+        </div>
+    </dialog>
+
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>개발자</p>
+                    <h3>안진용</h3>
+                </div>
+                <div class="footer-contact">
+                    <p>“지금의 행복도, 고통도 영원하지 않다”</p><span class="footer-habits">취미는 "러닝 · 독서 · 피아노 · 명상"</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/scripts/main.js" defer></script>
+    <script src="assets/locales/translations.js" defer></script>
+    <script src="assets/scripts/i18n.js" defer></script>
+    <script src="assets/scripts/career.js" defer></script>
+    <script src="assets/scripts/motion.js" defer></script>
+    <script src="assets/scripts/depth.js" defer></script>
+</body>
+</html>
